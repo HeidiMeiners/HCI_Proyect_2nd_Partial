@@ -5,9 +5,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using ColorUtility = UnityEngine.ColorUtility;
-using Image = UnityEngine.UI.Image;
 
-public class canvas : MonoBehaviour
+public class CanvasA : MonoBehaviour
 {
     [Header("Panels")]
     public GameObject mainPanel;
@@ -38,16 +37,17 @@ public class canvas : MonoBehaviour
     public void mainButton(int nkit)
     {
         string message = "";
-        if (kits[nkit-1] == "available")
+        if (kits[nkit - 1] == "available")
         {
             kit = nkit;
             showTime();
             return;
         }
-        else if (kits[nkit-1] == "loaned")
+        else if (kits[nkit - 1] == "loaned")
         {
             message = "You can’t select a headset that is loaned, please choose and other one";
-        } else if(kits[nkit - 1] == "incomplete")
+        }
+        else if (kits[nkit - 1] == "incomplete")
         {
             message = "You can’t select a headset that is incomplete, please choose and other one";
         }
@@ -74,7 +74,7 @@ public class canvas : MonoBehaviour
     {
         minutesSelected = minutes;
         confirmation.SetActive(true);
-        string text = "You have selected kit number "+kit.ToString()+" for "+minutes.ToString()+" minutes, is it correct?";
+        string text = "You have selected kit number " + kit.ToString() + " for " + minutes.ToString() + " minutes, is it correct?";
         confirmationText.text = text;
     }
 
@@ -99,8 +99,8 @@ public class canvas : MonoBehaviour
         DateTime currentTime = DateTime.Now;
         DateTime newTime = currentTime.AddMinutes(minutesSelected);
 
-        finalMessaje.text = "Thanks for borrowing the kit, please return it at "+ newTime.ToString("HH:mm");
-        kits[kit-1] = "loaned";
+        finalMessaje.text = "Thanks for borrowing the kit, please return it at " + newTime.ToString("HH:mm");
+        kits[kit - 1] = "loaned";
         ok.gameObject.SetActive(false);
         finish.gameObject.SetActive(true);
     }
@@ -119,12 +119,12 @@ public class canvas : MonoBehaviour
     {
         final.SetActive(false);
         string hexColor;
-        for (int i = 0; i<6; i++)
+        for (int i = 0; i < 6; i++)
         {
             TMP_Text buttonText = buttons[i].GetComponentInChildren<TMP_Text>();
             buttonText.text = kits[i];
 
-            if (kits[i]=="loaned" || kits[i] == "incomplete")
+            if (kits[i] == "loaned" || kits[i] == "incomplete")
             {
                 hexColor = "#C92A00";
             }
