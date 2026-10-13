@@ -133,4 +133,4 @@ These limitations may affect the user's ability to determine when unavailable ki
 - **Demo Video:** [Video](YOUR-DEMO-VIDEO-URL)
 
 ## Build
-- **Build ZIP:** [ZIP](link al zip)
+- **Build ZIP:** [Release](https://github.com/HeidiMeiners/HCI_Proyect_2nd_Partial/releases)
