@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using TMPro;
@@ -45,15 +44,15 @@ public class CanvasA : MonoBehaviour
         }
         else if (kits[nkit - 1] == "loaned")
         {
-            message = "You can’t select a headset that is loaned, please choose and other one";
+            message = "You canï¿½t select a headset that is loaned, please choose and other one";
         }
         else if (kits[nkit - 1] == "incomplete")
         {
-            message = "You can’t select a headset that is incomplete, please choose and other one";
+            message = "You canï¿½t select a headset that is incomplete, please choose and other one";
         }
         else
         {
-            message = "You can’t select a headset that is charging, please choose and other one";
+            message = "You canï¿½t select a headset that is charging, please choose and other one";
         }
         warning.SetActive(true);
         warningText.text = message;
