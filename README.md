@@ -24,7 +24,7 @@ The Figma design serves as a reference for the application's interface and user 
 |---|---|
 | Heidi Meiners | Developed the working prototype and implemented the project repository on GitHub. |
 | Regina López | Design justification and Figma vs Unity comparison, and documented the AI usage log |
-| Natalia Trujillo | [Describe the features, design, or implementation tasks completed.] |
+| Natalia Trujillo | Conducted usability testing with target users, implemented UI/UX improvements in Unity based on user feedback, generated the final builds, and recorded and edited the video demonstration. |
 
 ## 4. Unity Version and Requirements
 
