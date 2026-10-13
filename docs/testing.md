@@ -19,17 +19,17 @@ Based on real observations during external testing, two key usability issues wer
 ### Problem 1: Low Text Contrast and Small Button Readability (Accessibility Issue)
 * *Observation:* User 3 (60 years old) struggled to read the UI titles and action buttons due to the thin font weight, forcing him to lean close to the display. Additionally, the *Reset* button was too small and hard to locate.
 * *HCI Principle:* Visibility, Readability, and Universal Accessibility.
-* *Fix Applied:* Changed the primary UI typography and button font weights to *Bold. Increased the overall scale and font weight of the **Reset* button to ensure immediate visual prominence.
+* *Fix Applied:* Changed the primary UI typography and button font weights to Bold. Increased the overall scale and font weight of the *Reset* button to ensure immediate visual prominence.
 * *Result:* Readability improved significantly across all age groups, allowing faster navigation without visual strain.
 
 #### Visual Evidence (Before vs. After):
 *Main Instructions Font Weight Adjustment:*
-![Font Weight Fix](<img width="598" height="193" alt="WhatsApp Image 2026-10-12 at 8 02 16 PM" src="https://github.com/user-attachments/assets/bca22ef3-b7b4-4010-99e0-a6bdd2e2e848" />
-)
+
+![Font Weight Fix](https://github.com/user-attachments/assets/bca22ef3-b7b4-4010-99e0-a6bdd2e2e848)
 
 *Reset Button Size & Font Weight Adjustment:*
-![Reset Button Fix](<img width="539" height="93" alt="WhatsApp Image 2026-10-12 at 8 02 28 PM" src="https://github.com/user-attachments/assets/35fd1148-0c5a-4b14-bd3b-fce0f56f799e" />
-)
+
+![Reset Button Fix](https://github.com/user-attachments/assets/35fd1148-0c5a-4b14-bd3b-fce0f56f799e)
 
 ---
 
@@ -41,5 +41,5 @@ Based on real observations during external testing, two key usability issues wer
 
 #### Visual Evidence (Before vs. After):
 *Charging Alert Color Palette Fix:*
-![Color Hierarchy Fix](<img width="407" height="437" alt="WhatsApp Image 2026-10-12 at 8 02 53 PM" src="https://github.com/user-attachments/assets/1d7c3018-9077-458e-a38a-9002f248a8fa" />
-)
+
+![Color Hierarchy Fix](https://github.com/user-attachments/assets/1d7c3018-9077-458e-a38a-9002f248a8fa)
