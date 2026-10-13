@@ -131,3 +131,6 @@ These limitations may affect the user's ability to determine when unavailable ki
 - **GitHub Repository:** [HCI Project – Second Partial](https://github.com/HeidiMeiners/HCI_Proyect_2nd_Partial.git)
 - **Figma Design:** [Figma Design](https://www.figma.com/design/JqTF1DllNz3Tk0ABxP0M2z/QUEST-CHECKOUT?node-id=0-1&m=dev)
 - **Demo Video:** [Video](YOUR-DEMO-VIDEO-URL)
+
+## Build
+- **Build ZIP:** [ZIP](link al zip)
