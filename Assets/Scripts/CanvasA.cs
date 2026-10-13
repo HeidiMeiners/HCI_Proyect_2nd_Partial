@@ -109,7 +109,7 @@ public class CanvasA : MonoBehaviour
         confirmation.SetActive(false);
         final.SetActive(true);
         finalMessaje.text = "We apologize for the inconvenience, please select another kit.";
-        kits[kit] = "incomplete";
+        kits[kit-1] = "incomplete";
         finish.gameObject.SetActive(false);
         ok.gameObject.SetActive(true);
     }
